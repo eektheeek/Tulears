@@ -1,0 +1,41 @@
+
+
+header {
+	height: 200px;
+	border: 10px solid rgb(0, 255, 255);
+	border-top: dashed;
+	border-bottom: 10px dotted rgba(255, 0, 255, .5)
+	background-color: rgba(200; 200; 200; .3);
+	background-image: url(http://livt.net/info/wp-content/uploads/2017/04/%D0%93%D0%B8%D0%B1%D0%B1%D0%BE%D0%BD-2222222222222.jpg);
+	background-size: cover;
+	
+
+}
+
+section {
+	height: 1000px;
+}
+.mainfooter{
+	height: 100px;
+	background: red;
+}
+.hero .contentZone ul li {
+	color: red;
+	height: 600px;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: ff4f00;
+}
+p { width: 40px;
+	text-align: center;
+	line-height: 50px;
+}

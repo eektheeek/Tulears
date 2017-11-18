@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Positioning</title>
+	<link rel="stylesheet" href="reset.css">
+	<style>
+		.outer {
+			height: 500px;
+			border: 2px solid orange;
+		}
+		.inner {
+			width: 50px;
+			height: 50px;
+		}
+		.static .inner {
+			margin-top: 50px;
+			background-color: red;
+			position: static;
+		}
+		.relative .inner{
+			background-color: purple;
+			top:20px;
+			left: 350px;
+			position: relative;}
+		.absolute .inner{background-color: green;
+			position: absolute;
+			
+		}
+		.fixed .inner{background-color: black;}
+	</style>
+</head>
+<body>
+	<div class="outer static">
+		<div class="inner"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate pariatur consequuntur vitae fugiat culpa, sequi distinctio sed omnis aliquid veniam! Rem voluptas repudiandae soluta iusto explicabo consequatur, dolore adipisci.</p>
+	</div>
+	<div class="outer relative">
+		<div class="inner"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in et recusandae sapiente deserunt nobis nam perspiciatis blanditiis expedita iure aut, impedit cumque officia harum voluptas nostrum repellat incidunt quod.</p>
+	</div>
+	<div class="outer absolute">
+		<div class="inner"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ullam impedit dolores pariatur, rem reprehenderit, quam dignissimos, aut at nesciunt, itaque et porro ipsa asperiores! Libero magni dignissimos natus, enim.</p>
+	</div>
+	<div class="outer fixed">
+		<div class="inner"></div>
+	</div>
+</body>
+</html>
